@@ -6,6 +6,7 @@
 body{
     font-family:"Poppins", Arial, sans-serif;
     font-size: 12px;
+    overflow-x: hidden;
 }
 .TopBar {
     display: flex;
@@ -205,7 +206,6 @@ div.DrInfoHeading p.Description{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    padding: 20px;
 }
 .Doctor{
      flex-basis: 25%;
@@ -768,12 +768,12 @@ div.DrInfoHeading p.Description{
         display: block;
     }
 }
-@media screen and (max-width:850px) {
+@media screen and (max-width:860px) {
     .Heading {
         font-size: 3rem;
     }
     .UpdateImage{
-        height: 400px;
+        height: 350px;
     }
     .OverlapText{
         height: auto;
