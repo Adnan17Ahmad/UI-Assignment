@@ -1,0 +1,943 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    font-family:"Poppins", Arial, sans-serif;
+    font-size: 12px;
+}
+.TopBar {
+    display: flex;
+    flex-wrap: wrap;
+    height: 35px;
+    background-color: dodgerblue;
+    color: floralwhite;
+    padding: 10px;
+    justify-content: space-around;
+  }
+
+.Wrapper {
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+div.Mail p{
+    margin-left: 1vw;
+}
+div.SignUpSignIn p a{
+    color: floralwhite;
+    text-decoration: none;
+}
+div.SignUpSignIn p a:hover{
+    color:burlywood;
+}
+.Welcome{
+    background-image: url(xbg_3.png);
+    padding-bottom: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Navbar {
+    display: flex;
+    background-color: rgba(255, 255, 255, 50%);
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.Logo{
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+.Menu{
+    display: none;
+}
+.NavbarItems{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    align-items: center;
+}
+div.NavbarItems a{
+    color: black;
+    text-decoration: none;
+    margin-left: 50px;
+}
+div.NavbarItems a.RedBtn{
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+.RedBtn{
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+}
+.BlueBtn{
+    background-color: dodgerblue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+}
+.OverlapText{
+    margin-top: 150px;
+    margin-left: 15vw;
+    width: 30vw;
+}
+.WelcomeText{
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.OverlapBtn{
+    margin-top: 30px;
+    padding: 20px 35px;
+    font-size: 1.5rem;
+}
+.Appointment{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10%;
+}
+.AppointmentPic{
+    flex-basis: 50%;
+    background-image: url("xabout.png");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    background-repeat: no-repeat;
+}
+.AppointmentDetails{
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 50px;
+}
+.SearchPlaces{
+    background-image: url("xbg_2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bgBlue{
+    color:dodgerblue;
+}
+.bgGrey{
+    color:grey;
+}
+.Heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.Description{
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.ml-2{
+    margin-right: 10px;
+}
+.TextJustify{
+    text-align: justify;
+}
+.TextCenter{
+    text-align: center;
+}
+.ADBtnDiv{
+    margin-top: 20px;
+}
+.ADBtn{
+    padding: 20px 35px;
+    font-size: 1.5rem;
+}
+.bgWhite{
+    color: white;
+}
+.mg-2{
+    margin-top: 20px;
+}
+.WhiteBtn{
+    background-color: white;
+    color: black;
+    padding: 20px 35px;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.DoctorsInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+}
+
+div.DrInfoHeading p.Description{
+    text-align: center;
+}
+.Doctors{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+}
+.Doctor{
+     flex-basis: 25%;
+}
+.DrImage{
+    height: 380px;
+}
+.DrName{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.DrProf{
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+.DrDescription{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+.DrBtn{
+    margin-top: 10px;
+}
+.FunFacts{
+    margin-top: 350px;
+    background-image: url("xbg_3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position: center;
+}
+
+.BlueOverlay{
+    background-color: rgba(7, 119, 247, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.LeftHalf{
+    flex-basis: 50%;
+    margin: 300px 0 0 100px;
+}
+.FFBtn{
+    font-size: 2rem;
+    margin-top: 50px;
+}
+.RightHalf{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Top{
+    display: flex;
+}
+.Bottom{
+    display: flex;
+}
+.TopLeft{
+    padding: 50px;
+    flex-basis: 25%;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.TopRight{
+    padding: 50px;
+    flex-basis: 25%;
+    border-bottom: 1px solid white;
+}
+.BottomLeft{
+    padding: 53px;
+    flex-basis: 25%;
+    border-right: 1px solid white;
+}
+.BottomRight{
+    padding: 50px;
+    flex-basis: 25%;
+}
+.UpdatesInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    text-align: center;
+}
+.Updates{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.Update{
+    flex-basis: 30%;
+    margin: 20px;
+    text-align: justify;
+}
+.UpdateImage{
+    height: 380px;
+}
+.UpdateDate{
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.UpdateHeading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.UpdateDescription{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+.UpdateBtn{
+    margin-top: 10px;
+}
+.bgRed{
+    color: red;
+}
+.ReadTestimonial{
+    margin-top: 200px;
+    background-image: url("xbg_3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1100px;
+    background-position: center;
+    position: relative;
+}
+
+.ContactUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+
+}
+.ContactOptions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+.ContactOption{
+    flex-basis: 20%;
+    margin-top: 10px;
+    padding: 30px 0 100px 0;
+    background-color: rgb(248, 249, 255);
+}
+.ContactImage{
+    background-color: white;
+    border-radius: 100px;
+    height: 120px;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.cIcon{
+    font-size: 2rem;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+.ContactHeading{
+    margin-top: 40px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.ContactDescription{
+    font-size: 1rem;
+    margin-top: 40px;
+    text-align: center;
+}
+.MapAndMessage{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(248, 249, 255);
+    margin-top: 70px;
+}
+.GoogleMap{
+    width: 700px;
+    background-image: url("googlemap");
+    height: 900px;
+    background-repeat: cover;
+}
+.MessageDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    padding: 20px;
+    width: 600px;
+}
+.SmallBox{
+    margin-top: 30px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+.BigBox{
+    margin-top: 30px;
+    height: 250px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+.MessageBtn{
+    margin-left: 0;
+    margin-top: 20px;
+    margin-right: auto;
+    font-size: 1.5rem;
+}
+.Footer{
+    background-image: url("footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.WhiteOverlap{
+    background-color: rgba(233, 223, 223, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: left;
+}
+.container{
+    flex-basis: 15%;
+    padding: 80px 30px 80px 30px;
+}
+.flex{
+    display: flex;
+}
+.FooterHeading{
+    margin-top: 40px;
+    font-size: 1.5rem;
+    text-align: left;
+}
+.RTBlueOverlay{
+    background-color: rgba(7, 119, 247, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.RTHeader{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.PatientImage{
+    background-image: url("xperson_3.jpeg");
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.PIconBG{
+    background-color: orange;
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom:5px;
+    right: 5px;
+}
+.PIcon{
+    height: 25px;
+    width: 25px;
+    margin-top: 10px;
+}
+.Patients{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.PatientContainer{
+    flex-basis: 20%;
+    margin-top:50px;
+}
+.ServicesInfo{
+    background-color: rgb(240, 241, 248);
+    margin-top: 30px;
+    display: none;
+    padding: 30px;
+}
+.Services{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.SIconBG {
+    text-align: center;
+    height: 105px;
+    width: 105px;
+    color: rgb(254, 95, 85);
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 238, 237);
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.Service{
+    display: flex;
+    align-items: center;
+}
+.FreeConsultation{
+    background-color: white;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    border-radius: 20px ;
+}
+.ConsultationInput {
+    width: 95%;
+    height: 15px;
+    border-radius: 25px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(153, 153, 153);
+    border-image: initial;
+    padding: 20px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.SBtn{
+    margin-top: 40px;
+    font-size: 2rem;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Professions{
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+.ProfessionIcon{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.Profession{
+    border-bottom: 1px solid grey;
+    padding: 80px 30px;
+    text-align: center;
+}
+
+
+@media screen and (max-width:1500px) {
+    .NavbarItems{
+        font-size: 1.2rem;
+    }
+    .DrImage {
+        height: 330px;
+    }
+    .UpdateImage {
+        height: 275px;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .ADBtn {
+        padding: 20px 30px;
+    }
+    .UpdateImage {
+        height: 255px;
+    }
+}
+@media screen and (max-width:1299px) {
+    .ADBtn {
+        padding: 15px 20px;
+        font-size: 1.3rem;
+    }
+    .UpdateImage {
+        height: 235px;
+    }
+    .DrImage {
+        height: 285px;
+    }
+    .GoogleMap{
+        height: 815px;
+    }
+    .BottomLeft {
+        padding: 51px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .Heading {
+        font-size: 3rem;
+    }
+    .Description{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:1100px) {
+    .TopBar{
+        display: none;
+    }
+    .ContactUs{
+        padding: 150px 0;
+    }
+    .Navbar
+    {
+        background-color: black;
+        justify-content: space-between;
+    }
+    .Menu{
+        display: block;
+    }
+    .Logo{
+        color: white;
+        margin-left: 80px;
+    }
+    .NavbarItems{
+        display: none;
+    }
+    .Appointment {
+        display: block;
+        justify-content: space-around;
+        padding: 0 5%;
+    }
+    .AppointmentDetails{
+        padding: 0;
+        margin-top: 60px;
+    }
+    .ADBtn {
+        width: 85vw;
+        margin-top: 10px;
+        font-size: 2.5rem;
+    }
+    .ServicesInfo{
+        display: block;
+    }
+    .UpdateImage {
+        height: 215px;
+    }
+    .Doctors
+    {
+        display: block;
+    }
+    .Doctor{
+        margin-top: 40px;
+        padding: 30px;
+    }
+    .DrImage{
+        height: 500px;
+    }
+    .FunFacts{
+        height: auto;
+        margin-top: 100px;
+    }
+    .BlueOverlay{
+        display: block;
+        height: auto;
+        padding-top: 30px;
+    }
+    .LeftHalf{
+        margin: 40px 0;
+        text-align: center;
+    }
+    .Top{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .Bottom{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .BottomLeft{
+        border-bottom: 1px solid white;
+    }
+    .P1{
+        display: none;
+    }
+    .PatientImage{
+        height: 300px;
+        width: 300px;
+    }
+    .PIconBG {
+        height: 80px;
+        width: 80px;
+    }
+    .PIcon {
+        height: 35px;
+        width: 35px;
+        margin-top: 20px;
+    }
+    .PatientContainer{
+        margin-top: 0px;
+        flex-basis: 50%;
+    }
+    .P3{
+        display: none;
+    }
+    .UpdateImage
+    {
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .UpdateHeading{
+        font-size: 2rem;
+        
+    }
+    .UpdateDescription{
+        font-size: 1.5rem;
+       
+    }
+    .ContactOptions{
+        display: block;
+    }
+    .ContactOption{
+        margin-top: 20px;
+    }
+    .MapAndMessage{
+        flex-direction: column;
+    }
+    .GoogleMap{
+        height: 815px;
+        order: 2;
+        width: auto;
+        margin-top: 20px;
+    }
+    .MessageDetails{
+        width: auto;
+    }
+    .Heading {
+        font-size: 4rem;
+    }
+    .Description{
+        font-size: 1.5rem;
+    }
+    .WhiteOverlap{
+        flex-direction: column;
+    }
+    .container{
+        padding: 20px 40px;
+    }
+    .Wrapper{
+        font-size: 2rem;
+    }
+    .FooterHeading{
+        font-size: 2.5rem;
+    }
+    .Professions
+    {
+        display: block;
+    }
+}
+@media screen and (max-width:850px) {
+    .Heading {
+        font-size: 3rem;
+    }
+    .UpdateImage{
+        height: 400px;
+    }
+    .OverlapText{
+        height: auto;
+        width: 60vw;
+        margin-top: 150px;
+        margin-left: 20px;
+    }
+    .AppointmentPic{
+        height: 700px;
+        background-position: top right;
+    }
+    .ADBtn{
+        font-size: 2rem;
+    }
+    .ConsultationInput{
+        width: 90%;
+    }
+}
+@media screen and (max-width:650px) {
+    .Heading {
+        font-size: 2.5rem;
+    }
+    .ReadTestimonial{
+        height: 950px;
+    }
+    .PatientImage {
+        height: 200px;
+        width: 200px;
+    }
+    .MessageDetails{
+        margin-left: 10px;
+    }
+    .GoogleMap{
+        height: 500px;
+    }
+    .AppointmentPic {
+        height: 600px;
+        background-position: top right;
+    }
+    .SIconBG{
+        width:125px
+    }
+    .UpdateImage{
+        height: 300px;
+    }
+    .DrImage{
+        height: 300px;
+    }
+    .Welcome{
+        height: 550px;
+    }
+    .OverlapText{
+        height: auto;
+        width: 80vw;
+        margin-top: 150px;
+        margin-left: 20px;
+    }
+    .ADBtn{
+        font-size: 1.5rem;
+    }
+    .ConsultationInput{
+        width: 90%;
+    }
+    .Logo{
+        font-size: 2rem;
+        margin-left: 30px;
+    }
+    .OverlapBtn{
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+    .OverlapText{
+        margin-top: 150px;
+    }
+    .SearchPlaces{
+        height: 500px;
+    }
+}
+@media screen and (max-width:500px) {
+    .Heading {
+        font-size: 2rem;
+    }
+    .Description{
+        font-size: 1rem;
+    }
+    .AppointmentPic{
+        height: 500px;
+    }
+    .UpdateImage{
+        height: 200px;
+    }
+    .DrImage{
+        height: 300px;
+    }
+    .Welcome{
+        height: 500px;
+    }
+    .OverlapText{
+        height: auto;
+        width: 80vw;
+        margin-top: 150px;
+        margin-left: 20px;
+    }
+    .ADBtn{
+        font-size: 1.2rem;
+    }
+    .SBtn{
+        font-size: 1.2rem;
+    }
+    .ConsultationInput{
+        width: 87%;
+    }
+    .Logo{
+        font-size: 1.5rem;
+    }
+    .OverlapBtn{
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+    .FFBtn{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:400px) {
+    .Logo{
+        font-size: 1.2rem;
+        margin-left: 10px;
+    }
+    .WhiteBtn{
+        font-size: 1rem;
+    }
+    .Welcome{
+        height: 350px;
+    }
+    .OverlapText{
+        margin-top: 50px;
+    }
+    .OverlapBtn{
+        font-size: 1rem;
+        padding: 10px;
+    }
+    .AppointmentPic {
+        height: 400px;
+    }
+    .ADBtn {
+        font-size: 1rem;
+        padding: 10px;
+    }
+    .ConsultationInput {
+        width: 80%;
+        height: 15px;
+    }
+    .FreeConsultation
+    {
+        width: 65vw;
+        margin-left: 0px;
+    }
+    .SearchPlaces{
+        height: 400px;
+    }
+    .DrImage{
+        height: 200px;
+    }
+    .UpdateImage{
+        height: 150px;
+    }
+}
